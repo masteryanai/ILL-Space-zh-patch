@@ -40,14 +40,18 @@
 | 状态 | 条目数 | 说明 |
 |------|--------|------|
 | ✅ 原版已有（官方收录） | 2,678 | 游戏官方 ZH locres 已存在，确认生效 |
-| ⚠️ AI 新增·根命名空间 | 322 | UI 界面类文本，预计通过补丁正常生效 |
-| ⚠️ AI 新增·待实测 | 107 | 枚举/对象描述类，理论可生效，未完整验证 |
+| ⚠️ AI 新增·预计生效 | 322 | UI 界面类文本，理论上可通过补丁覆盖，但未经完整验证 |
+| ⚠️ AI 新增·待实测 | 107 | 枚举/对象描述类，未验证 |
 | ❌ AI 新增·预计不生效 | 766 | DataTable 类文本，受 UE4 机制限制（见下） |
 | ➖ 未翻译 | 63 | 均为版本 changelog，无需翻译 |
 
-> 生效预估由 AI 基于 UE4 本地化机制分析得出，仅供参考，以实际游戏表现为准。
+> ⚠️ 生效预估均为 AI 基于 UE4 本地化机制的推断，作者未对全部内容进行实际游戏验证，以实际游戏显示为准。
 
 ### ⚠️ 已知限制
+
+#### 硬编码文本
+
+部分 UI 文本直接硬编码在游戏蓝图中（如某些模式名称），locres 补丁无法覆盖，将保持英文显示。专有名词（品牌、技术术语等）同样保留英文。
 
 #### DataTable 类文本无法通过 locres 补丁生效
 
@@ -133,14 +137,18 @@
 | Status | Count | Notes |
 |--------|-------|-------|
 | ✅ Official ZH (already in game) | 2,678 | Present in the game's official ZH locres — confirmed working |
-| ⚠️ AI Added · Root Namespace | 322 | UI text — expected to work via locres patch |
-| ⚠️ AI Added · Needs Testing | 107 | Enum/object descriptions — theoretically patchable, not fully verified |
+| ⚠️ AI Added · Likely Working | 322 | UI text — theoretically patchable via locres, not fully verified |
+| ⚠️ AI Added · Needs Testing | 107 | Enum/object descriptions — unverified |
 | ❌ AI Added · Expected Not Working | 766 | DataTable text — blocked by UE4 engine limitation (see below) |
 | ➖ Untranslated | 63 | All are version changelogs — no translation needed |
 
-> Effect estimates are AI-generated based on UE4 localization internals. Actual behavior may vary.
+> ⚠️ All effect estimates are AI inferences based on UE4 localization internals. The author has not conducted full in-game verification. Actual behavior may vary — treat in-game display as the ground truth.
 
 ### ⚠️ Known Limitations
+
+#### Hardcoded Text
+
+Some UI labels are baked directly into Blueprints (e.g. certain mode names) and cannot be overridden by a locres patch — they will remain in English. Proper nouns, brand names, and technical terms are also intentionally kept in English.
 
 #### DataTable Text Cannot Be Patched via locres
 
