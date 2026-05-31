@@ -89,6 +89,8 @@
 
 本补丁为非官方社区制作，与游戏开发者无关。翻译内容由 AI 生成，可能存在不准确或游戏术语偏差，欢迎指正。游戏更新后补丁可能失效。仅供个人学习与体验使用，请勿用于商业用途。
 
+由于作者工作繁忙，目前仅对部分章节进行了基础测试，尚未完整体验全部翻译内容，如有错误或遗漏欢迎在 Issues 中指出。
+
 **如本项目侵犯了开发商的知识产权或违反相关服务条款，请通过 Issues 或邮件（yan10ai20@gmail.com）联系，收到通知后将立即删除。**
 
 ---
@@ -184,5 +186,7 @@ The following **766 entries** will **not display in Chinese** with the current p
 ### 📄 Disclaimer
 
 This is an unofficial community patch unaffiliated with the game's developers. Translations are AI-generated and may contain inaccuracies or terminology errors. The patch may break after game updates. For personal use only — not for commercial purposes.
+
+The author has only been able to conduct limited testing due to time constraints. If you encounter translation errors or awkward phrasing in-game, please report them via Issues.
 
 **If this project infringes upon any intellectual property rights or violates the game's terms of service, please open an Issue or contact yan10ai20@gmail.com. The repository will be taken down immediately upon notification.**
