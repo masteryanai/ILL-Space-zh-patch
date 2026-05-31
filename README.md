@@ -97,7 +97,7 @@
 
 由于作者工作繁忙，目前仅对部分章节进行了基础测试，尚未完整体验全部翻译内容，如有错误或遗漏欢迎在 Issues 中指出。
 
-**如本项目侵犯了开发商的知识产权或违反相关服务条款，请通过 Issues 或邮件（yan10ai20@gmail.com）联系，收到通知后将立即删除。**
+**如本项目侵犯了开发商的知识产权或违反相关服务条款，请在 Issues 中留言，看到后将立即删除。**
 
 ---
 
@@ -201,4 +201,4 @@ This is an unofficial community patch unaffiliated with the game's developers. T
 
 The author has only been able to conduct limited testing due to time constraints. If you encounter translation errors or awkward phrasing in-game, please report them via Issues.
 
-**If this project infringes upon any intellectual property rights or violates the game's terms of service, please open an Issue or contact yan10ai20@gmail.com. The repository will be taken down immediately upon notification.**
+**If this project infringes upon any intellectual property rights or violates the game's terms of service, please leave a comment here or open a GitHub Issue. I will remove it promptly upon notification.**
